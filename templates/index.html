@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Podcast Summarizer Dashboard</title>
+    <link rel="stylesheet" href="/static/styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <header class="hero">
+        <div class="hero__copy">
+          <span class="hero__badge">Workspace</span>
+          <h1>Podcast Intelligence Studio</h1>
+          <p>Process long-form conversations into clean transcripts, speaker timelines, topic clusters, and summaries.</p>
+        </div>
+        <div class="hero__actions">
+          <button id="refresh-history" type="button" class="button button--ghost">
+            Refresh History
+          </button>
+        </div>
+      </header>
+
+      <section class="layout">
+        <aside class="layout__sidebar">
+          <section class="card card--controls">
+            <header class="card__header">
+              <h2>Pipeline Controls</h2>
+            </header>
+            <form id="process-form" class="form">
+              <fieldset class="form__group">
+                <legend>Audio Source</legend>
+                <label>
+                  Upload MP3
+                  <input type="file" id="audio-file" accept="audio/mpeg,audio/mp3" />
+                </label>
+                <label>
+                  Existing audio path (optional)
+                  <input type="text" id="audio-path" placeholder="output/my_audio.mp3" />
+                </label>
+                <label>
+                  Spotify / YouTube link <span class="note">(handled separately)</span>
+                  <input type="url" id="audio-link" placeholder="https://..." />
+                </label>
+                <label>
+                  Custom output name (optional)
+                  <input type="text" data-config-key="audio_stem" placeholder="Defaults to audio file name" />
+                </label>
+              </fieldset>
+
+              <fieldset class="form__group">
+                <legend>Pipeline Mode</legend>
+                <label>
+                  Mode
+                  <select data-config-key="mode">
+                    <option value="all">All stages</option>
+                    <option value="transcribe">Transcription only</option>
+                    <option value="diarize">Diarization only</option>
+                    <option value="transcribe+diarize">Transcribe + Diarize</option>
+                    <option value="segment">Segmentation only</option>
+                    <option value="segment+summarize">Segment + Summarize</option>
+                    <option value="summarize">Summarize only</option>
+                  </select>
+                </label>
+                <label>
+                  Primary language hint
+                  <input type="text" data-config-key="transcription_language" placeholder="hi, en, mr..." />
+                </label>
+                <label>
+                  Auto-translate languages (comma separated)
+                  <input type="text" data-config-key="translate_languages" placeholder="hi,mr" />
+                </label>
+                <label>
+                  Translate to language
+                  <input type="text" data-config-key="translate_target" placeholder="en" />
+                </label>
+              </fieldset>
+
+              <details class="form__accordion" open>
+                <summary>Transcription</summary>
+                <label>
+                  Whisper model
+                  <select data-config-key="model_size">
+                    <option value="small">small</option>
+                    <option value="medium">medium</option>
+                    <option value="large-v2">large-v2</option>
+                  </select>
+                </label>
+              </details>
+
+              <details class="form__accordion">
+                <summary>Diarization</summary>
+                <label>
+                  Model id
+                  <input type="text" data-config-key="diarization_model" />
+                </label>
+                <label>
+                  Hugging Face token
+                  <input type="password" data-config-key="diarization_token" autocomplete="off" />
+                </label>
+                <label>
+                  Model revision
+                  <input type="text" data-config-key="diarization_revision" />
+                </label>
+                <label>
+                  Device
+                  <input type="text" data-config-key="diarization_device" placeholder="cpu, mps, cuda" />
+                </label>
+              </details>
+
+              <details class="form__accordion" open>
+                <summary>Segmentation</summary>
+                <label>
+                  Method
+                  <select data-config-key="segment_method">
+                    <option value="changepoint">Changepoint</option>
+                    <option value="embeddings">Embeddings</option>
+                    <option value="lexical">Lexical</option>
+                  </select>
+                </label>
+                <label>
+                  Embedding model
+                  <input type="text" data-config-key="embedding_model" />
+                </label>
+                <label>
+                  Embedding device
+                  <input type="text" data-config-key="embedding_device" placeholder="cpu, mps, cuda" />
+                </label>
+                <div class="form__grid">
+                  <label>
+                    Window size
+                    <input type="number" data-config-key="window_size" />
+                  </label>
+                  <label>
+                    Score quantile
+                    <input type="number" step="0.05" data-config-key="score_quantile" />
+                  </label>
+                  <label>
+                    Min boundary gap
+                    <input type="number" data-config-key="min_boundary_gap" />
+                  </label>
+                  <label>
+                    Smooth size
+                    <input type="number" data-config-key="smooth_size" />
+                  </label>
+                  <label>
+                    Changepoint penalty
+                    <input type="number" step="0.1" data-config-key="changepoint_penalty" />
+                  </label>
+                  <label>
+                    Changepoint min size
+                    <input type="number" data-config-key="changepoint_min_size" />
+                  </label>
+                  <label>
+                    Min topic duration (s)
+                    <input type="number" step="1" data-config-key="min_topic_duration" />
+                  </label>
+                  <label>
+                    Min topic turns
+                    <input type="number" data-config-key="min_topic_turns" />
+                  </label>
+                </div>
+              </details>
+
+              <details class="form__accordion" open>
+                <summary>Summaries</summary>
+                <label>
+                  Model
+                  <input type="text" data-config-key="summary_model" />
+                </label>
+                <label>
+                  Device
+                  <input type="text" data-config-key="summary_device" placeholder="cpu, mps, cuda" />
+                </label>
+                <div class="form__grid">
+                  <label>
+                    Chunk words
+                    <input type="number" data-config-key="summary_chunk_words" />
+                  </label>
+                  <label>
+                    Chunk overlap
+                    <input type="number" data-config-key="summary_chunk_overlap" />
+                  </label>
+                  <label>
+                    Min length
+                    <input type="number" data-config-key="summary_min_length" />
+                  </label>
+                  <label>
+                    Max length
+                    <input type="number" data-config-key="summary_max_length" />
+                  </label>
+                  <label>
+                    Context before
+                    <input type="number" data-config-key="summary_context_before" />
+                  </label>
+                  <label>
+                    Context after
+                    <input type="number" data-config-key="summary_context_after" />
+                  </label>
+                  <label>
+                    Minimum words before summarizing
+                    <input type="number" data-config-key="summary_min_words" />
+                  </label>
+                </div>
+              </details>
+
+              <details class="form__accordion">
+                <summary>Audio Preprocessing</summary>
+                <label class="checkbox">
+                  <input type="checkbox" data-config-key="disable_preprocess" />
+                  Disable preprocessing
+                </label>
+                <div class="form__grid">
+                  <label>
+                    Target sample rate
+                    <input type="number" data-config-key="preprocess_target_sr" />
+                  </label>
+                  <label>
+                    Trim dB
+                    <input type="number" step="1" data-config-key="preprocess_trim_db" />
+                  </label>
+                  <label>
+                    High-pass (Hz)
+                    <input type="number" step="1" data-config-key="preprocess_highpass" />
+                  </label>
+                  <label>
+                    Low-pass (Hz)
+                    <input type="number" step="1" data-config-key="preprocess_lowpass" />
+                  </label>
+                </div>
+              </details>
+
+              <button type="submit" class="button button--primary">Run Pipeline</button>
+              <p id="status" class="status">&nbsp;</p>
+            </form>
+          </section>
+
+        </aside>
+
+        <section class="layout__content">
+          <section class="card card--audio">
+            <header class="card__header card__header--inline">
+              <div>
+                <h2>Audio Player</h2>
+                <p class="card__subtitle">Preview the uploaded clip before or after processing.</p>
+              </div>
+            </header>
+            <div class="card__body card__body--audio">
+              <audio id="audio-player" controls preload="metadata"></audio>
+              <div class="audio-meta">
+                <span id="audio-filename" class="audio-filename note">No audio loaded.</span>
+              </div>
+            </div>
+          </section>
+
+          <article id="output-summaries" class="card result-card result-card--highlight"></article>
+
+          <div class="result-row">
+            <section id="speaker-editor" class="card card--speakers result-card result-card--compact"></section>
+            <article id="output-summary" class="card result-card"></article>
+            <section class="card card--history card--compact">
+              <header class="card__header">
+                <h2>Run History</h2>
+              </header>
+              <p class="card__subtitle">Revisit and download artefacts from earlier podcasts.</p>
+              <div class="card__body">
+                <ul id="history-list" class="history-list"></ul>
+              </div>
+            </section>
+          </div>
+
+          <article id="output-transcript" class="card result-card result-card--wide"></article>
+          <article id="output-topics" class="card result-card result-card--wide"></article>
+          <article id="output-diarization" class="card result-card"></article>
+        </section>
+      </section>
+    </main>
+
+    <script src="/static/app.js" defer></script>
+  </body>
+</html>
