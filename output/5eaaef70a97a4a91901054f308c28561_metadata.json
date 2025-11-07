@@ -1,0 +1,84 @@
+{
+  "audio_stem": "5eaaef70a97a4a91901054f308c28561",
+  "created_at": "2025-11-05T12:26:15.165299Z",
+  "mode": "all",
+  "files": {
+    "transcript": {
+      "path": "output/5eaaef70a97a4a91901054f308c28561_transcript.txt",
+      "filename": "5eaaef70a97a4a91901054f308c28561_transcript.txt",
+      "url": "/output/5eaaef70a97a4a91901054f308c28561_transcript.txt"
+    },
+    "transcript_segments": {
+      "path": "output/5eaaef70a97a4a91901054f308c28561_transcript_segments.json",
+      "filename": "5eaaef70a97a4a91901054f308c28561_transcript_segments.json",
+      "url": "/output/5eaaef70a97a4a91901054f308c28561_transcript_segments.json"
+    },
+    "original_transcript": {
+      "path": "output/5eaaef70a97a4a91901054f308c28561_original_transcript.txt",
+      "filename": "5eaaef70a97a4a91901054f308c28561_original_transcript.txt",
+      "url": "/output/5eaaef70a97a4a91901054f308c28561_original_transcript.txt"
+    },
+    "original_transcript_segments": {
+      "path": "output/5eaaef70a97a4a91901054f308c28561_original_transcript_segments.json",
+      "filename": "5eaaef70a97a4a91901054f308c28561_original_transcript_segments.json",
+      "url": "/output/5eaaef70a97a4a91901054f308c28561_original_transcript_segments.json"
+    },
+    "topic_segments": {
+      "path": "output/5eaaef70a97a4a91901054f308c28561_topic_segments.json",
+      "filename": "5eaaef70a97a4a91901054f308c28561_topic_segments.json",
+      "url": "/output/5eaaef70a97a4a91901054f308c28561_topic_segments.json"
+    },
+    "topic_summaries": {
+      "path": "output/5eaaef70a97a4a91901054f308c28561_topic_summaries.json",
+      "filename": "5eaaef70a97a4a91901054f308c28561_topic_summaries.json",
+      "url": "/output/5eaaef70a97a4a91901054f308c28561_topic_summaries.json"
+    },
+    "diarization_segments": {
+      "path": "output/5eaaef70a97a4a91901054f308c28561_diarization_segments.json",
+      "filename": "5eaaef70a97a4a91901054f308c28561_diarization_segments.json",
+      "url": "/output/5eaaef70a97a4a91901054f308c28561_diarization_segments.json"
+    }
+  },
+  "config": {
+    "audio_path": "/Users/yashjain/Documents/capstone new/output/uploads/5eaaef70a97a4a91901054f308c28561.mp3",
+    "mode": "all",
+    "model_size": "medium",
+    "diarization_model": "pyannote/speaker-diarization-community-1",
+    "diarization_token": "",
+    "diarization_revision": null,
+    "diarization_device": "cpu",
+    "segment_method": "changepoint",
+    "window_size": 6,
+    "score_quantile": 0.8,
+    "min_boundary_gap": 5,
+    "smooth_size": 5,
+    "embedding_model": "sentence-transformers/all-mpnet-base-v2",
+    "embedding_device": null,
+    "changepoint_penalty": 6.0,
+    "changepoint_min_size": 4,
+    "min_topic_duration": 120.0,
+    "min_topic_turns": 8,
+    "summary_model": "philschmid/bart-large-cnn-samsum",
+    "summary_device": null,
+    "summary_chunk_words": 240,
+    "summary_chunk_overlap": 60,
+    "summary_min_length": 40,
+    "summary_max_length": 130,
+    "summary_context_before": 1,
+    "summary_context_after": 1,
+    "summary_min_words": 50,
+    "translate_languages": [
+      "hi",
+      "mr"
+    ],
+    "translate_target": "en",
+    "transcription_language": "hi",
+    "disable_preprocess": false,
+    "preprocess_target_sr": 16000,
+    "preprocess_trim_db": 30.0,
+    "preprocess_highpass": 60.0,
+    "preprocess_lowpass": 6000.0,
+    "output_dir": "output",
+    "audio_stem": null
+  }
+}

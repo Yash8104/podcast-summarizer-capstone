@@ -1,0 +1,34 @@
+{
+  "spotify:episode:4riy9zbxzg4bwtud2J5fwV": {
+    "source": "spotify",
+    "episode_id": "4riy9zbxzg4bwtud2J5fwV",
+    "episode_title": "Should I Be Scared?",
+    "show_title": "Bad Friends",
+    "file": "/Users/yashjain/Documents/capstone new/output/link_downloads/18355c3e-8958-4a6f-85c5-b34e83434ce9_Should I Be Scared_.mp3",
+    "public_url": "/output/link_downloads/18355c3e-8958-4a6f-85c5-b34e83434ce9_Should I Be Scared_.mp3",
+    "rss_url": "https://feeds.megaphone.fm/TPC1602991613",
+    "link": "https://open.spotify.com/episode/4riy9zbxzg4bwtud2J5fwV?si=c63fa4be57ef4997",
+    "created_at": 1762501279
+  },
+  "rss:18355c3e-8958-4a6f-85c5-b34e83434ce9": {
+    "source": "rss",
+    "guid": "18355c3e-8958-4a6f-85c5-b34e83434ce9",
+    "title": "Should I Be Scared?",
+    "show": "Bad Friends",
+    "file": "/Users/yashjain/Documents/capstone new/output/link_downloads/18355c3e-8958-4a6f-85c5-b34e83434ce9_Should I Be Scared_.mp3",
+    "public_url": "/output/link_downloads/18355c3e-8958-4a6f-85c5-b34e83434ce9_Should I Be Scared_.mp3",
+    "audio_url": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/pfx.vpixl.com/u8u9X/mgln.ai/e/1118/arttrk.com/p/YMH00/clrtpod.com/m/traffic.megaphone.fm/TPC2466390617.mp3?updated=1725057158",
+    "created_at": 1762501279
+  },
+  "youtube:HS1fmHZ6ilM": {
+    "source": "youtube",
+    "video_id": "HS1fmHZ6ilM",
+    "title": "using friends for money and exes for content | ep 55 | Sweet n' Sour",
+    "uploader": "Sweet n Sour Podcast",
+    "duration": 3706,
+    "file": "/Users/yashjain/Documents/capstone new/output/link_downloads/using friends for money and exes for content ｜ ep 55 ｜ Sweet n' Sour.mp3",
+    "public_url": "/output/link_downloads/using friends for money and exes for content ｜ ep 55 ｜ Sweet n' Sour.mp3",
+    "link": "https://youtu.be/HS1fmHZ6ilM?si=jBHYUEKcSD2G_wrM",
+    "created_at": 1762508654
+  }
+}

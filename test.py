@@ -55,8 +55,8 @@ class PipelineConfig:
     min_topic_turns: int = 8
     summary_model: str = "philschmid/bart-large-cnn-samsum"
     summary_device: Optional[str] = None
-    summary_chunk_words: int = 240
-    summary_chunk_overlap: int = 60
+    summary_chunk_words: int = 165
+    summary_chunk_overlap: int = 45
     summary_min_length: int = 40
     summary_max_length: int = 130
     summary_context_before: int = 1
@@ -96,7 +96,15 @@ def run_pipeline(config: PipelineConfig) -> Dict[str, Any]:
     output_dir.mkdir(parents=True, exist_ok=True)
 
     audio_path = Path(config.audio_path)
-    if not audio_path.exists():
+    audio_exists = audio_path.exists()
+
+    run_transcription_stage = config.mode in {"all", "transcribe", "transcribe+diarize"}
+    run_diarization_stage = config.mode in {"all", "diarize", "transcribe+diarize"}
+    run_segmentation_stage = config.mode in {"all", "segment", "segment+summarize"}
+    run_summarization_stage = config.mode in {"all", "summarize", "segment+summarize"}
+
+    requires_audio_file = run_transcription_stage or run_diarization_stage
+    if requires_audio_file and not audio_exists:
         raise FileNotFoundError(f"Audio file not found: {audio_path}")
 
     audio_stem = config.audio_stem or audio_path.stem
@@ -111,15 +119,10 @@ def run_pipeline(config: PipelineConfig) -> Dict[str, Any]:
 
     translate_languages = config.translate_languages or set()
 
-    run_transcription_stage = config.mode in {"all", "transcribe", "transcribe+diarize"}
-    run_diarization_stage = config.mode in {"all", "diarize", "transcribe+diarize"}
-    run_segmentation_stage = config.mode in {"all", "segment", "segment+summarize"}
-    run_summarization_stage = config.mode in {"all", "summarize", "segment+summarize"}
-
     preprocess_temp_path: Optional[Path] = None
     processed_audio_path = audio_path
 
-    if not config.disable_preprocess:
+    if requires_audio_file and not config.disable_preprocess:
         trim_db = config.preprocess_trim_db if (config.preprocess_trim_db is not None and config.preprocess_trim_db >= 0) else None
         highpass = config.preprocess_highpass if (config.preprocess_highpass is not None and config.preprocess_highpass > 0) else None
         lowpass = config.preprocess_lowpass if (config.preprocess_lowpass is not None and config.preprocess_lowpass > 0) else None
@@ -698,13 +701,13 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--summary-chunk-words",
         type=int,
-        default=240,
+        default=165,
         help="Approximate number of words per chunk fed into the summarizer.",
     )
     parser.add_argument(
         "--summary-chunk-overlap",
         type=int,
-        default=60,
+        default=45,
         help="Word overlap between successive chunks when summarizing long segments.",
     )
     parser.add_argument(

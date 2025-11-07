@@ -1,0 +1,58 @@
+[
+  {
+    "start": 0.0,
+    "end": 902.16,
+    "summary": "Unknown and SPEAKER_01 are having a conversation about their ex-boyfriends. They discuss the podcast they would like to do with their exes. SPEaker_01 and Unknown are going to attend TwitchCon together. Ray and Cutie are not going. They talk about Christina Grimmie's death.",
+    "primary_speaker": "SPEAKER_01",
+    "speaker_counts": {
+      "SPEAKER_01": 323,
+      "SPEAKER_02": 232,
+      "Unknown": 108,
+      "SPEAKER_00": 4
+    },
+    "speaker_summaries": {
+      "SPEAKER_01": "Sweet and Sour is back on the air. Ludwig is 6-7 and is attracted to young 20-something guys. Yuri and Binky don't check Kakao messages often. Lily stayed in New York for the first time and she didn't like it. Ateez will visit his parents in",
+      "SPEAKER_02": "Ned Fulmer has a podcast called \"I Cheater Drama\". Lily Pichu went to a meeting. Swift and Temmie are not friends. Swift brought Temmie on her trip to New Jersey. SFX brought his old bed to his old room and bought a high bed.",
+      "Unknown": "There's a new episode of \"I'm I to You I'm interesting\" and it's about a 27-year-old man.",
+      "SPEAKER_00": "Some people thought they were together, but it turns out they have been separated for a while."
+    }
+  },
+  {
+    "start": 902.16,
+    "end": 1667.5,
+    "summary": "Unknown and SPEAKER_01 are watching a stream. They discuss the difference between when people streamed and when they used to do it. SPEaker_01 and Unknown want to go to New Jersey for a day to film a podcast. Unknown doesn't want to stream at all.",
+    "primary_speaker": "SPEAKER_01",
+    "speaker_counts": {
+      "SPEAKER_01": 313,
+      "Unknown": 130,
+      "SPEAKER_02": 112,
+      "SPEAKER_03": 1
+    },
+    "speaker_summaries": {
+      "SPEAKER_01": "There is a lot of niceness in the reactions to what happened. The last time Ray felt this way was when he was at TwitchCon. Ray was outspoken against gambling on Twitch and it turned into a fiasco online. Pokemains didn't go to TwitchCon because she didn't want to put",
+      "Unknown": "There are women hanging and it's bring the I death of Charlie to the video.",
+      "SPEAKER_02": "Both people in the podcast should have moved on from their past relationship. Pokemains is the bad guy here. Ray and Cutie are not going to the meeting. Emily shouldn't be advertised on Twitch.",
+      "SPEAKER_03": "know."
+    }
+  },
+  {
+    "start": 1667.5,
+    "end": 3705.76,
+    "summary": "Unknown and SPEAKER_01 are having a conversation about their ex-boyfriends. They discuss the podcast they would like to do with their exes. SPEaker_01 and Unknown are going to attend TwitchCon together. Ray and Cutie are not going. They talk about Christina Grimmie's death and a discord stalker.",
+    "primary_speaker": "SPEAKER_01",
+    "speaker_counts": {
+      "SPEAKER_01": 692,
+      "Unknown": 258,
+      "SPEAKER_02": 476,
+      "SPEAKER_03": 7,
+      "SPEAKER_00": 3
+    },
+    "speaker_summaries": {
+      "SPEAKER_01": "Lily wants to confront a content creator who owes her money. Ludwig advises his friend to create socialist circles where people can rely on each other.",
+      "Unknown": "And He and She Crazy are in a monthly contract. They have issues with overspending or not paying. And He He is a man with a child.",
+      "SPEAKER_02": "Lily Pokey and team will wrap it up with a soul-ass. Lily hasn't had a new voice role in months and she's depressed about it. Ludwig employs his friends as he did in the past, but he doesn't treat it as a purely business relationship anymore.",
+      "SPEAKER_03": "\"You're not even from America. This is kind want to read my second response?\"",
+      "SPEAKER_00": "Today we have some activities that we can do. There's a lot of room for that"
+    }
+  }
+]

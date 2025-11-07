@@ -1,0 +1,887 @@
+[
+  {
+    "start": 0.0,
+    "end": 261.0,
+    "text": "SPEAKER_00: I want to talk about your relationship as well SPEAKER_00: That was the core topic of today SPEAKER_01: We barely talked about it SPEAKER_00: But these are couple goals SPEAKER_00: How did you achieve couple goals? SPEAKER_01: By not trying I think SPEAKER_01: We are literally two best friends just living life SPEAKER_00: We have done the same, we are friends SPEAKER_01: Zaheer made me fall in love with cheesy lines Unknown: How did he make you fall in love? SPEAKER_01: We met at a party at Salman's house SPEAKER_01: For so many years Zaheer was getting room to be in Salman's film notebook SPEAKER_01: I also used to go there SPEAKER_01: But we never met SPEAKER_01: For 6-7 years we used to always cross each other's paths SPEAKER_01: And we never met or even saw each other Unknown: Until that one day SPEAKER_01: We had an introduction Unknown: We had some stupid talks SPEAKER_01: We made jokes SPEAKER_01: I was like ok this guy is very confident Unknown: Usually people are intimidated by me SPEAKER_01: I don't know why SPEAKER_01: At least boys at that time SPEAKER_01: I found his confidence very striking SPEAKER_01: Next day we went for tube light screening SPEAKER_01: The screening was over SPEAKER_01: After party was gathered SPEAKER_01: Zaheer and I danced SPEAKER_01: And then we went to sit in one corner SPEAKER_01: We were sitting in one corner Unknown: And literally for 5 hours SPEAKER_01: We just spoke about everything SPEAKER_01: I felt like I knew this guy Unknown: We found so many commonalities SPEAKER_01: Between the two of us Unknown: It was just beautiful SPEAKER_01: It felt like home SPEAKER_00: Was someone playing the violin? SPEAKER_01: I don't know what was happening SPEAKER_01: Literally I was just listening to him SPEAKER_01: That was the day we clicked SPEAKER_01: Since that day we have been together Unknown: When did you fall in love? SPEAKER_01: I fell in love at that first chat SPEAKER_01: You fell in love? SPEAKER_01: Within a week of knowing him SPEAKER_01: He thought I was mad SPEAKER_01: He called his best friend SPEAKER_01: I don't think she knows the meaning of love SPEAKER_01: I think she is love deprived in life SPEAKER_01: Were you? SPEAKER_01: No SPEAKER_01: I genuinely cannot explain it SPEAKER_01: I never felt this way for anyone SPEAKER_01: He said I love you SPEAKER_01: He will think I am crazy SPEAKER_01: I said what I felt SPEAKER_01: I didn't want to play games Unknown: I felt how I felt SPEAKER_00: Take it or leave it SPEAKER_01: Cut to 7 years later we are married SPEAKER_01: In a month I told him I am going to marry him SPEAKER_00: One month after meeting him SPEAKER_01: I told him I am going to marry him SPEAKER_00: What did he say? Unknown: He laughed in my face Unknown: He actually laughed in my face SPEAKER_00: I want to show the context Unknown: What is happening here? SPEAKER_00: This is an ideal relationship Unknown: Stop encouraging him Unknown: He annoys me Unknown: I just love it SPEAKER_00: He keeps you entertained",
+    "turns": [
+      {
+        "start": 0.0,
+        "end": 5.0,
+        "speaker": "SPEAKER_00",
+        "text": "I want to talk about your relationship as well"
+      },
+      {
+        "start": 5.0,
+        "end": 8.0,
+        "speaker": "SPEAKER_00",
+        "text": "That was the core topic of today"
+      },
+      {
+        "start": 8.0,
+        "end": 11.0,
+        "speaker": "SPEAKER_01",
+        "text": "We barely talked about it"
+      },
+      {
+        "start": 11.0,
+        "end": 14.0,
+        "speaker": "SPEAKER_00",
+        "text": "But these are couple goals"
+      },
+      {
+        "start": 14.0,
+        "end": 17.0,
+        "speaker": "SPEAKER_00",
+        "text": "How did you achieve couple goals?"
+      },
+      {
+        "start": 17.0,
+        "end": 21.0,
+        "speaker": "SPEAKER_01",
+        "text": "By not trying I think"
+      },
+      {
+        "start": 21.0,
+        "end": 25.0,
+        "speaker": "SPEAKER_01",
+        "text": "We are literally two best friends just living life"
+      },
+      {
+        "start": 25.0,
+        "end": 28.0,
+        "speaker": "SPEAKER_00",
+        "text": "We have done the same, we are friends"
+      },
+      {
+        "start": 28.0,
+        "end": 31.0,
+        "speaker": "SPEAKER_01",
+        "text": "Zaheer made me fall in love with cheesy lines"
+      },
+      {
+        "start": 37.0,
+        "end": 40.0,
+        "speaker": "Unknown",
+        "text": "How did he make you fall in love?"
+      },
+      {
+        "start": 40.0,
+        "end": 47.0,
+        "speaker": "SPEAKER_01",
+        "text": "We met at a party at Salman's house"
+      },
+      {
+        "start": 47.0,
+        "end": 56.0,
+        "speaker": "SPEAKER_01",
+        "text": "For so many years Zaheer was getting room to be in Salman's film notebook"
+      },
+      {
+        "start": 57.0,
+        "end": 60.0,
+        "speaker": "SPEAKER_01",
+        "text": "I also used to go there"
+      },
+      {
+        "start": 60.0,
+        "end": 63.0,
+        "speaker": "SPEAKER_01",
+        "text": "But we never met"
+      },
+      {
+        "start": 63.0,
+        "end": 67.0,
+        "speaker": "SPEAKER_01",
+        "text": "For 6-7 years we used to always cross each other's paths"
+      },
+      {
+        "start": 67.0,
+        "end": 70.0,
+        "speaker": "SPEAKER_01",
+        "text": "And we never met or even saw each other"
+      },
+      {
+        "start": 70.0,
+        "end": 73.0,
+        "speaker": "Unknown",
+        "text": "Until that one day"
+      },
+      {
+        "start": 73.0,
+        "end": 76.0,
+        "speaker": "SPEAKER_01",
+        "text": "We had an introduction"
+      },
+      {
+        "start": 76.0,
+        "end": 79.0,
+        "speaker": "Unknown",
+        "text": "We had some stupid talks"
+      },
+      {
+        "start": 79.0,
+        "end": 81.0,
+        "speaker": "SPEAKER_01",
+        "text": "We made jokes"
+      },
+      {
+        "start": 81.0,
+        "end": 84.0,
+        "speaker": "SPEAKER_01",
+        "text": "I was like ok this guy is very confident"
+      },
+      {
+        "start": 85.0,
+        "end": 88.0,
+        "speaker": "Unknown",
+        "text": "Usually people are intimidated by me"
+      },
+      {
+        "start": 88.0,
+        "end": 91.0,
+        "speaker": "SPEAKER_01",
+        "text": "I don't know why"
+      },
+      {
+        "start": 91.0,
+        "end": 94.0,
+        "speaker": "SPEAKER_01",
+        "text": "At least boys at that time"
+      },
+      {
+        "start": 94.0,
+        "end": 97.0,
+        "speaker": "SPEAKER_01",
+        "text": "I found his confidence very striking"
+      },
+      {
+        "start": 97.0,
+        "end": 101.0,
+        "speaker": "SPEAKER_01",
+        "text": "Next day we went for tube light screening"
+      },
+      {
+        "start": 101.0,
+        "end": 104.0,
+        "speaker": "SPEAKER_01",
+        "text": "The screening was over"
+      },
+      {
+        "start": 104.0,
+        "end": 107.0,
+        "speaker": "SPEAKER_01",
+        "text": "After party was gathered"
+      },
+      {
+        "start": 107.0,
+        "end": 110.0,
+        "speaker": "SPEAKER_01",
+        "text": "Zaheer and I danced"
+      },
+      {
+        "start": 110.0,
+        "end": 113.0,
+        "speaker": "SPEAKER_01",
+        "text": "And then we went to sit in one corner"
+      },
+      {
+        "start": 113.0,
+        "end": 116.0,
+        "speaker": "SPEAKER_01",
+        "text": "We were sitting in one corner"
+      },
+      {
+        "start": 116.0,
+        "end": 120.0,
+        "speaker": "Unknown",
+        "text": "And literally for 5 hours"
+      },
+      {
+        "start": 120.0,
+        "end": 123.0,
+        "speaker": "SPEAKER_01",
+        "text": "We just spoke about everything"
+      },
+      {
+        "start": 123.0,
+        "end": 125.0,
+        "speaker": "SPEAKER_01",
+        "text": "I felt like I knew this guy"
+      },
+      {
+        "start": 125.0,
+        "end": 128.0,
+        "speaker": "Unknown",
+        "text": "We found so many commonalities"
+      },
+      {
+        "start": 128.0,
+        "end": 131.0,
+        "speaker": "SPEAKER_01",
+        "text": "Between the two of us"
+      },
+      {
+        "start": 131.0,
+        "end": 134.0,
+        "speaker": "Unknown",
+        "text": "It was just beautiful"
+      },
+      {
+        "start": 134.0,
+        "end": 136.0,
+        "speaker": "SPEAKER_01",
+        "text": "It felt like home"
+      },
+      {
+        "start": 136.0,
+        "end": 138.0,
+        "speaker": "SPEAKER_00",
+        "text": "Was someone playing the violin?"
+      },
+      {
+        "start": 138.0,
+        "end": 140.0,
+        "speaker": "SPEAKER_01",
+        "text": "I don't know what was happening"
+      },
+      {
+        "start": 140.0,
+        "end": 143.0,
+        "speaker": "SPEAKER_01",
+        "text": "Literally I was just listening to him"
+      },
+      {
+        "start": 143.0,
+        "end": 146.0,
+        "speaker": "SPEAKER_01",
+        "text": "That was the day we clicked"
+      },
+      {
+        "start": 146.0,
+        "end": 149.0,
+        "speaker": "SPEAKER_01",
+        "text": "Since that day we have been together"
+      },
+      {
+        "start": 149.0,
+        "end": 152.0,
+        "speaker": "Unknown",
+        "text": "When did you fall in love?"
+      },
+      {
+        "start": 152.0,
+        "end": 155.0,
+        "speaker": "SPEAKER_01",
+        "text": "I fell in love at that first chat"
+      },
+      {
+        "start": 155.0,
+        "end": 158.0,
+        "speaker": "SPEAKER_01",
+        "text": "You fell in love?"
+      },
+      {
+        "start": 158.0,
+        "end": 161.0,
+        "speaker": "SPEAKER_01",
+        "text": "Within a week of knowing him"
+      },
+      {
+        "start": 161.0,
+        "end": 164.0,
+        "speaker": "SPEAKER_01",
+        "text": "He thought I was mad"
+      },
+      {
+        "start": 164.0,
+        "end": 167.0,
+        "speaker": "SPEAKER_01",
+        "text": "He called his best friend"
+      },
+      {
+        "start": 167.0,
+        "end": 170.0,
+        "speaker": "SPEAKER_01",
+        "text": "I don't think she knows the meaning of love"
+      },
+      {
+        "start": 170.0,
+        "end": 173.0,
+        "speaker": "SPEAKER_01",
+        "text": "I think she is love deprived in life"
+      },
+      {
+        "start": 173.0,
+        "end": 175.0,
+        "speaker": "SPEAKER_01",
+        "text": "Were you?"
+      },
+      {
+        "start": 175.0,
+        "end": 178.0,
+        "speaker": "SPEAKER_01",
+        "text": "No"
+      },
+      {
+        "start": 178.0,
+        "end": 181.0,
+        "speaker": "SPEAKER_01",
+        "text": "I genuinely cannot explain it"
+      },
+      {
+        "start": 181.0,
+        "end": 184.0,
+        "speaker": "SPEAKER_01",
+        "text": "I never felt this way for anyone"
+      },
+      {
+        "start": 184.0,
+        "end": 187.0,
+        "speaker": "SPEAKER_01",
+        "text": "He said I love you"
+      },
+      {
+        "start": 187.0,
+        "end": 190.0,
+        "speaker": "SPEAKER_01",
+        "text": "He will think I am crazy"
+      },
+      {
+        "start": 190.0,
+        "end": 193.0,
+        "speaker": "SPEAKER_01",
+        "text": "I said what I felt"
+      },
+      {
+        "start": 193.0,
+        "end": 196.0,
+        "speaker": "SPEAKER_01",
+        "text": "I didn't want to play games"
+      },
+      {
+        "start": 196.0,
+        "end": 199.0,
+        "speaker": "Unknown",
+        "text": "I felt how I felt"
+      },
+      {
+        "start": 199.0,
+        "end": 202.0,
+        "speaker": "SPEAKER_00",
+        "text": "Take it or leave it"
+      },
+      {
+        "start": 202.0,
+        "end": 205.0,
+        "speaker": "SPEAKER_01",
+        "text": "Cut to 7 years later we are married"
+      },
+      {
+        "start": 205.0,
+        "end": 209.0,
+        "speaker": "SPEAKER_01",
+        "text": "In a month I told him I am going to marry him"
+      },
+      {
+        "start": 209.0,
+        "end": 212.0,
+        "speaker": "SPEAKER_00",
+        "text": "One month after meeting him"
+      },
+      {
+        "start": 212.0,
+        "end": 215.0,
+        "speaker": "SPEAKER_01",
+        "text": "I told him I am going to marry him"
+      },
+      {
+        "start": 215.0,
+        "end": 218.0,
+        "speaker": "SPEAKER_00",
+        "text": "What did he say?"
+      },
+      {
+        "start": 218.0,
+        "end": 221.0,
+        "speaker": "Unknown",
+        "text": "He laughed in my face"
+      },
+      {
+        "start": 221.0,
+        "end": 224.0,
+        "speaker": "Unknown",
+        "text": "He actually laughed in my face"
+      },
+      {
+        "start": 225.0,
+        "end": 228.0,
+        "speaker": "SPEAKER_00",
+        "text": "I want to show the context"
+      },
+      {
+        "start": 228.0,
+        "end": 231.0,
+        "speaker": "Unknown",
+        "text": "What is happening here?"
+      },
+      {
+        "start": 240.0,
+        "end": 243.0,
+        "speaker": "SPEAKER_00",
+        "text": "This is an ideal relationship"
+      },
+      {
+        "start": 243.0,
+        "end": 246.0,
+        "speaker": "Unknown",
+        "text": "Stop encouraging him"
+      },
+      {
+        "start": 246.0,
+        "end": 249.0,
+        "speaker": "Unknown",
+        "text": "He annoys me"
+      },
+      {
+        "start": 255.0,
+        "end": 258.0,
+        "speaker": "Unknown",
+        "text": "I just love it"
+      },
+      {
+        "start": 258.0,
+        "end": 261.0,
+        "speaker": "SPEAKER_00",
+        "text": "He keeps you entertained"
+      }
+    ],
+    "speaker_counts": {
+      "SPEAKER_00": 12,
+      "SPEAKER_01": 48,
+      "Unknown": 15
+    },
+    "primary_speaker": "SPEAKER_01"
+  },
+  {
+    "start": 261.0,
+    "end": 487.0,
+    "text": "SPEAKER_00: 24x7 Unknown: Do you think it is an underrated guy skill? SPEAKER_01: 100% SPEAKER_01: There is one thing making someone laugh SPEAKER_01: You can do it for a while SPEAKER_01: But this guy has been consistently doing it for the last 8 years SPEAKER_00: Do you know what is the key? SPEAKER_00: There is consistency SPEAKER_00: That is a traditional relationship tip SPEAKER_01: Compare him to a movie character SPEAKER_01: He is my best friend SPEAKER_00: Relationships are very breakdown SPEAKER_00: In the beginning of this podcast SPEAKER_00: I told you that you are a big green flag Unknown: As a woman this is a guy's perspective SPEAKER_00: You are very chilled out SPEAKER_01: There is a balance of feminine and masculine energy SPEAKER_00: When I came into this relationship SPEAKER_01: There was such a good balance SPEAKER_01: When I reached this relationship Unknown: I realized that this is healthy SPEAKER_01: Applause comes from both hands SPEAKER_01: Love should be in both places SPEAKER_01: Respect should be in both places SPEAKER_00: Love is friendship SPEAKER_00: If there is no friendship, there is nothing SPEAKER_01: Love can fade away after so many years SPEAKER_01: But friendship is something that will always be there SPEAKER_01: Eventually you want a hangout buddy in marriage SPEAKER_01: I think so, companionship is very important SPEAKER_01: But if there is love on it, then it will be a perfect match SPEAKER_00: Are you enjoying the marriage? SPEAKER_01: I am enjoying it a lot SPEAKER_00: How long have you been dating? SPEAKER_01: We started dating in 2017 SPEAKER_00: So 8 years SPEAKER_01: Out of which 1 year we have been married SPEAKER_00: All that happened in the 7th year SPEAKER_01: We got married in the 7th year",
+    "turns": [
+      {
+        "start": 261.0,
+        "end": 264.0,
+        "speaker": "SPEAKER_00",
+        "text": "24x7"
+      },
+      {
+        "start": 264.0,
+        "end": 267.0,
+        "speaker": "Unknown",
+        "text": "Do you think it is an underrated guy skill?"
+      },
+      {
+        "start": 267.0,
+        "end": 270.0,
+        "speaker": "SPEAKER_01",
+        "text": "100%"
+      },
+      {
+        "start": 270.0,
+        "end": 273.0,
+        "speaker": "SPEAKER_01",
+        "text": "There is one thing making someone laugh"
+      },
+      {
+        "start": 273.0,
+        "end": 276.0,
+        "speaker": "SPEAKER_01",
+        "text": "You can do it for a while"
+      },
+      {
+        "start": 276.0,
+        "end": 279.0,
+        "speaker": "SPEAKER_01",
+        "text": "But this guy has been consistently doing it for the last 8 years"
+      },
+      {
+        "start": 279.0,
+        "end": 282.0,
+        "speaker": "SPEAKER_00",
+        "text": "Do you know what is the key?"
+      },
+      {
+        "start": 282.0,
+        "end": 285.0,
+        "speaker": "SPEAKER_00",
+        "text": "There is consistency"
+      },
+      {
+        "start": 285.0,
+        "end": 288.0,
+        "speaker": "SPEAKER_00",
+        "text": "That is a traditional relationship tip"
+      },
+      {
+        "start": 312.0,
+        "end": 316.0,
+        "speaker": "SPEAKER_01",
+        "text": "Compare him to a movie character"
+      },
+      {
+        "start": 342.0,
+        "end": 345.0,
+        "speaker": "SPEAKER_01",
+        "text": "He is my best friend"
+      },
+      {
+        "start": 355.0,
+        "end": 358.0,
+        "speaker": "SPEAKER_00",
+        "text": "Relationships are very breakdown"
+      },
+      {
+        "start": 372.0,
+        "end": 375.0,
+        "speaker": "SPEAKER_00",
+        "text": "In the beginning of this podcast"
+      },
+      {
+        "start": 375.0,
+        "end": 378.0,
+        "speaker": "SPEAKER_00",
+        "text": "I told you that you are a big green flag"
+      },
+      {
+        "start": 378.0,
+        "end": 381.0,
+        "speaker": "Unknown",
+        "text": "As a woman this is a guy's perspective"
+      },
+      {
+        "start": 381.0,
+        "end": 384.0,
+        "speaker": "SPEAKER_00",
+        "text": "You are very chilled out"
+      },
+      {
+        "start": 384.0,
+        "end": 387.0,
+        "speaker": "SPEAKER_01",
+        "text": "There is a balance of feminine and masculine energy"
+      },
+      {
+        "start": 388.0,
+        "end": 391.0,
+        "speaker": "SPEAKER_00",
+        "text": "When I came into this relationship"
+      },
+      {
+        "start": 391.0,
+        "end": 394.0,
+        "speaker": "SPEAKER_01",
+        "text": "There was such a good balance"
+      },
+      {
+        "start": 418.0,
+        "end": 421.0,
+        "speaker": "SPEAKER_01",
+        "text": "When I reached this relationship"
+      },
+      {
+        "start": 421.0,
+        "end": 424.0,
+        "speaker": "Unknown",
+        "text": "I realized that this is healthy"
+      },
+      {
+        "start": 424.0,
+        "end": 427.0,
+        "speaker": "SPEAKER_01",
+        "text": "Applause comes from both hands"
+      },
+      {
+        "start": 427.0,
+        "end": 430.0,
+        "speaker": "SPEAKER_01",
+        "text": "Love should be in both places"
+      },
+      {
+        "start": 430.0,
+        "end": 433.0,
+        "speaker": "SPEAKER_01",
+        "text": "Respect should be in both places"
+      },
+      {
+        "start": 440.0,
+        "end": 443.0,
+        "speaker": "SPEAKER_00",
+        "text": "Love is friendship"
+      },
+      {
+        "start": 443.0,
+        "end": 446.0,
+        "speaker": "SPEAKER_00",
+        "text": "If there is no friendship, there is nothing"
+      },
+      {
+        "start": 448.0,
+        "end": 451.0,
+        "speaker": "SPEAKER_01",
+        "text": "Love can fade away after so many years"
+      },
+      {
+        "start": 451.0,
+        "end": 454.0,
+        "speaker": "SPEAKER_01",
+        "text": "But friendship is something that will always be there"
+      },
+      {
+        "start": 454.0,
+        "end": 457.0,
+        "speaker": "SPEAKER_01",
+        "text": "Eventually you want a hangout buddy in marriage"
+      },
+      {
+        "start": 457.0,
+        "end": 460.0,
+        "speaker": "SPEAKER_01",
+        "text": "I think so, companionship is very important"
+      },
+      {
+        "start": 460.0,
+        "end": 463.0,
+        "speaker": "SPEAKER_01",
+        "text": "But if there is love on it, then it will be a perfect match"
+      },
+      {
+        "start": 463.0,
+        "end": 466.0,
+        "speaker": "SPEAKER_00",
+        "text": "Are you enjoying the marriage?"
+      },
+      {
+        "start": 466.0,
+        "end": 469.0,
+        "speaker": "SPEAKER_01",
+        "text": "I am enjoying it a lot"
+      },
+      {
+        "start": 469.0,
+        "end": 472.0,
+        "speaker": "SPEAKER_00",
+        "text": "How long have you been dating?"
+      },
+      {
+        "start": 472.0,
+        "end": 475.0,
+        "speaker": "SPEAKER_01",
+        "text": "We started dating in 2017"
+      },
+      {
+        "start": 475.0,
+        "end": 478.0,
+        "speaker": "SPEAKER_00",
+        "text": "So 8 years"
+      },
+      {
+        "start": 478.0,
+        "end": 481.0,
+        "speaker": "SPEAKER_01",
+        "text": "Out of which 1 year we have been married"
+      },
+      {
+        "start": 481.0,
+        "end": 484.0,
+        "speaker": "SPEAKER_00",
+        "text": "All that happened in the 7th year"
+      },
+      {
+        "start": 484.0,
+        "end": 487.0,
+        "speaker": "SPEAKER_01",
+        "text": "We got married in the 7th year"
+      }
+    ],
+    "speaker_counts": {
+      "SPEAKER_00": 15,
+      "Unknown": 3,
+      "SPEAKER_01": 21
+    },
+    "primary_speaker": "SPEAKER_01"
+  },
+  {
+    "start": 487.0,
+    "end": 655.0,
+    "text": "SPEAKER_00: Maybe after the itch SPEAKER_01: There was just a click SPEAKER_01: That I already know this person SPEAKER_01: It was very weird SPEAKER_01: Because I didn't feel like this for anyone SPEAKER_00: Has he molded himself a bit SPEAKER_00: To be better as a partner for you? SPEAKER_01: No, I think the beauty of it is that Unknown: He lets me be and I let him be SPEAKER_01: Even if we have had our differences SPEAKER_01: We have worked our way around it SPEAKER_01: So that he can be exactly the way he is SPEAKER_01: What was your type? SPEAKER_01: My type was serious SPEAKER_01: Brutal, mature, quiet SPEAKER_01: Because I know how long you have to be away SPEAKER_01: I just didn't want to be with someone Unknown: Who I had to deal with that for SPEAKER_00: Being an actor's partner is difficult SPEAKER_01: Yes, it is SPEAKER_01: Why is it difficult? SPEAKER_01: I want my husband to not go for a shoot for a month SPEAKER_00: My husband should be with me SPEAKER_01: It is a very comfortable space SPEAKER_01: Zaheer is predominantly a real estate developer SPEAKER_01: So he is a good balance between business and acting SPEAKER_00: Thank you",
+    "turns": [
+      {
+        "start": 487.0,
+        "end": 490.0,
+        "speaker": "SPEAKER_00",
+        "text": "Maybe after the itch"
+      },
+      {
+        "start": 497.0,
+        "end": 500.0,
+        "speaker": "SPEAKER_01",
+        "text": "There was just a click"
+      },
+      {
+        "start": 500.0,
+        "end": 503.0,
+        "speaker": "SPEAKER_01",
+        "text": "That I already know this person"
+      },
+      {
+        "start": 506.0,
+        "end": 509.0,
+        "speaker": "SPEAKER_01",
+        "text": "It was very weird"
+      },
+      {
+        "start": 509.0,
+        "end": 512.0,
+        "speaker": "SPEAKER_01",
+        "text": "Because I didn't feel like this for anyone"
+      },
+      {
+        "start": 536.0,
+        "end": 539.0,
+        "speaker": "SPEAKER_00",
+        "text": "Has he molded himself a bit"
+      },
+      {
+        "start": 539.0,
+        "end": 542.0,
+        "speaker": "SPEAKER_00",
+        "text": "To be better as a partner for you?"
+      },
+      {
+        "start": 542.0,
+        "end": 545.0,
+        "speaker": "SPEAKER_01",
+        "text": "No, I think the beauty of it is that"
+      },
+      {
+        "start": 545.0,
+        "end": 548.0,
+        "speaker": "Unknown",
+        "text": "He lets me be and I let him be"
+      },
+      {
+        "start": 548.0,
+        "end": 551.0,
+        "speaker": "SPEAKER_01",
+        "text": "Even if we have had our differences"
+      },
+      {
+        "start": 551.0,
+        "end": 554.0,
+        "speaker": "SPEAKER_01",
+        "text": "We have worked our way around it"
+      },
+      {
+        "start": 554.0,
+        "end": 557.0,
+        "speaker": "SPEAKER_01",
+        "text": "So that he can be exactly the way he is"
+      },
+      {
+        "start": 557.0,
+        "end": 560.0,
+        "speaker": "SPEAKER_01",
+        "text": "What was your type?"
+      },
+      {
+        "start": 560.0,
+        "end": 563.0,
+        "speaker": "SPEAKER_01",
+        "text": "My type was serious"
+      },
+      {
+        "start": 563.0,
+        "end": 566.0,
+        "speaker": "SPEAKER_01",
+        "text": "Brutal, mature, quiet"
+      },
+      {
+        "start": 593.0,
+        "end": 596.0,
+        "speaker": "SPEAKER_01",
+        "text": "Because I know how long you have to be away"
+      },
+      {
+        "start": 596.0,
+        "end": 599.0,
+        "speaker": "SPEAKER_01",
+        "text": "I just didn't want to be with someone"
+      },
+      {
+        "start": 599.0,
+        "end": 602.0,
+        "speaker": "Unknown",
+        "text": "Who I had to deal with that for"
+      },
+      {
+        "start": 602.0,
+        "end": 605.0,
+        "speaker": "SPEAKER_00",
+        "text": "Being an actor's partner is difficult"
+      },
+      {
+        "start": 605.0,
+        "end": 608.0,
+        "speaker": "SPEAKER_01",
+        "text": "Yes, it is"
+      },
+      {
+        "start": 608.0,
+        "end": 611.0,
+        "speaker": "SPEAKER_01",
+        "text": "Why is it difficult?"
+      },
+      {
+        "start": 611.0,
+        "end": 614.0,
+        "speaker": "SPEAKER_01",
+        "text": "I want my husband to not go for a shoot for a month"
+      },
+      {
+        "start": 614.0,
+        "end": 617.0,
+        "speaker": "SPEAKER_00",
+        "text": "My husband should be with me"
+      },
+      {
+        "start": 623.0,
+        "end": 626.0,
+        "speaker": "SPEAKER_01",
+        "text": "It is a very comfortable space"
+      },
+      {
+        "start": 626.0,
+        "end": 629.0,
+        "speaker": "SPEAKER_01",
+        "text": "Zaheer is predominantly a real estate developer"
+      },
+      {
+        "start": 629.0,
+        "end": 632.0,
+        "speaker": "SPEAKER_01",
+        "text": "So he is a good balance between business and acting"
+      },
+      {
+        "start": 653.0,
+        "end": 655.0,
+        "speaker": "SPEAKER_00",
+        "text": "Thank you"
+      }
+    ],
+    "speaker_counts": {
+      "SPEAKER_00": 6,
+      "SPEAKER_01": 19,
+      "Unknown": 2
+    },
+    "primary_speaker": "SPEAKER_01"
+  }
+]

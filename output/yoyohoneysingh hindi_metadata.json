@@ -1,0 +1,89 @@
+{
+  "audio_stem": "yoyohoneysingh hindi",
+  "created_at": "2025-11-07T14:47:09.597579Z",
+  "mode": "summarize",
+  "files": {
+    "transcript": {
+      "path": "output/yoyohoneysingh hindi_transcript.txt",
+      "filename": "yoyohoneysingh hindi_transcript.txt",
+      "url": "/output/yoyohoneysingh hindi_transcript.txt"
+    },
+    "transcript_segments": {
+      "path": "output/yoyohoneysingh hindi_transcript_segments.json",
+      "filename": "yoyohoneysingh hindi_transcript_segments.json",
+      "url": "/output/yoyohoneysingh hindi_transcript_segments.json"
+    },
+    "original_transcript": {
+      "path": "output/yoyohoneysingh hindi_original_transcript.txt",
+      "filename": "yoyohoneysingh hindi_original_transcript.txt",
+      "url": "/output/yoyohoneysingh hindi_original_transcript.txt"
+    },
+    "original_transcript_segments": {
+      "path": "output/yoyohoneysingh hindi_original_transcript_segments.json",
+      "filename": "yoyohoneysingh hindi_original_transcript_segments.json",
+      "url": "/output/yoyohoneysingh hindi_original_transcript_segments.json"
+    },
+    "topic_segments": {
+      "path": "output/yoyohoneysingh hindi_topic_segments.json",
+      "filename": "yoyohoneysingh hindi_topic_segments.json",
+      "url": "/output/yoyohoneysingh hindi_topic_segments.json"
+    },
+    "topic_summaries": {
+      "path": "output/yoyohoneysingh hindi_topic_summaries.json",
+      "filename": "yoyohoneysingh hindi_topic_summaries.json",
+      "url": "/output/yoyohoneysingh hindi_topic_summaries.json"
+    },
+    "diarization_segments": {
+      "path": "output/yoyohoneysingh hindi_diarization_segments.json",
+      "filename": "yoyohoneysingh hindi_diarization_segments.json",
+      "url": "/output/yoyohoneysingh hindi_diarization_segments.json"
+    }
+  },
+  "config": {
+    "audio_path": "/Users/yashjain/Documents/capstone new/output/yoyohoneysingh hindi.placeholder",
+    "mode": "summarize",
+    "model_size": "medium",
+    "diarization_model": "pyannote/speaker-diarization-community-1",
+    "diarization_token": "",
+    "diarization_revision": null,
+    "diarization_device": null,
+    "segment_method": "changepoint",
+    "window_size": 6,
+    "score_quantile": 0.8,
+    "min_boundary_gap": 5,
+    "smooth_size": 5,
+    "embedding_model": "sentence-transformers/all-mpnet-base-v2",
+    "embedding_device": null,
+    "changepoint_penalty": 6.0,
+    "changepoint_min_size": 4,
+    "min_topic_duration": 120.0,
+    "min_topic_turns": 8,
+    "summary_model": "philschmid/bart-large-cnn-samsum",
+    "summary_device": null,
+    "summary_chunk_words": 140,
+    "summary_chunk_overlap": 40,
+    "summary_min_length": 30,
+    "summary_max_length": 130,
+    "summary_context_before": 1,
+    "summary_context_after": 1,
+    "summary_min_words": 70,
+    "translate_languages": [
+      "hi",
+      "mr"
+    ],
+    "translate_target": "en",
+    "transcription_language": "hi",
+    "disable_preprocess": false,
+    "preprocess_target_sr": 16000,
+    "preprocess_trim_db": 30.0,
+    "preprocess_highpass": 60.0,
+    "preprocess_lowpass": 6000.0,
+    "output_dir": "output",
+    "audio_stem": "yoyohoneysingh hindi"
+  },
+  "source_audio": {
+    "path": "/Users/yashjain/Documents/capstone new/output/yoyohoneysingh hindi.placeholder",
+    "filename": "yoyohoneysingh hindi.placeholder",
+    "url": null
+  }
+}

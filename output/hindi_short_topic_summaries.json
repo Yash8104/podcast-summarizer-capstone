@@ -1,0 +1,50 @@
+[
+  {
+    "start": 0.0,
+    "end": 261.0,
+    "summary": "Zaheer and SPEAKER_01 got married in the 7th year of their relationship. Unknown thinks he annoys SPEaker_00. They met at a party at Salman's house. The next day they went to a tube light screening. They sat in a corner for 5 hours talking about everything.",
+    "primary_speaker": "SPEAKER_01",
+    "speaker_counts": {
+      "SPEAKER_00": 12,
+      "SPEAKER_01": 48,
+      "Unknown": 15
+    },
+    "speaker_summaries": {
+      "SPEAKER_00": "The topic of today is couple goals. I want to talk about your relationship as well.",
+      "SPEAKER_01": "Zaheer and his wife have been together for 7 years and now they are married.",
+      "Unknown": "He made her fall in love after they had some stupid talks for 5 hours."
+    }
+  },
+  {
+    "start": 261.0,
+    "end": 487.0,
+    "summary": "Zaheer and Speaker fell in love within a week of knowing each other. Unknown and SPEAKER_01 met 7 years ago and 7 years later they are married. Unknown's partner is a real estate developer. Speaker's partner has been his best friend for 8 years.",
+    "primary_speaker": "SPEAKER_01",
+    "speaker_counts": {
+      "SPEAKER_00": 15,
+      "Unknown": 3,
+      "SPEAKER_01": 21
+    },
+    "speaker_summaries": {
+      "SPEAKER_00": "There is consistency that is the key to a good relationship. Relationships are breakdown without friendship. The couple has been dating for 8 years and got married in 7th year.",
+      "Unknown": "is a guy's perspective. Do you think it is an underrated guy skill?",
+      "SPEAKER_01": "There is a good balance between feminine and masculine energy in the relationship I have with my partner."
+    }
+  },
+  {
+    "start": 487.0,
+    "end": 655.0,
+    "summary": "SPEAKER_00 and Unknown have been dating for 8 years and married for 7 years. Speaker wants her husband to not go for a shoot for a month. Zaheer is a real estate developer.",
+    "primary_speaker": "SPEAKER_01",
+    "speaker_counts": {
+      "SPEAKER_00": 6,
+      "SPEAKER_01": 19,
+      "Unknown": 2
+    },
+    "speaker_summaries": {
+      "SPEAKER_00": "Being an actor's partner is difficult. My husband should be with me. Maybe after the itch.",
+      "SPEAKER_01": "Zaheer's wife wants him not to go for a photo shoot for a month.",
+      "Unknown": "He lets me be and I let him be. I had to deal with that"
+    }
+  }
+]

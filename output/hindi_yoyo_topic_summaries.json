@@ -1,0 +1,66 @@
+[
+  {
+    "start": 0.0,
+    "end": 1932.0,
+    "summary": "As a music journalist, SPEAKER_00 started making beats for Goa rappers in 2003 and wants to make beats as a music producer. He is a devotee of Bhole Baba and believes in Guru Gobind Singh and Guru Nanak Dev Ji. He was on a world tour with Shah Rukh Bhai, he was in America and he was running a big show on Star Plus for 1.5 years. Now he is touring India with Yoyo Honey Singh singing Punjabi songs in Chennai. Before 2012, he used to believe in God, but after that, he stopped believing in God",
+    "primary_speaker": "SPEAKER_00",
+    "speaker_counts": {
+      "SPEAKER_00": 567,
+      "Unknown": 265,
+      "SPEAKER_01": 162
+    },
+    "speaker_summaries": {
+      "SPEAKER_00": "Neil Armstrong used to believe in God before 2012, when he got success. In 2012, 2013 and 2014, he saw so much money, so much success and he stopped believing in God. I was attracted to the devil and used to do devilish activities in a satanic church. Since 2007,",
+      "Unknown": "Yoyo Honey Singh is touring India. She designed everything in 60 seconds. Maya Nagari wants her younger brother to be successful. Hirdesh is a podcaster in Punjab. German will not speak French.",
+      "SPEAKER_01": "Yoyo Honey Singh is a guest on TRS today. He will talk about how to achieve style and how to think in style. He believes in God. He used to get high on weed and now he's an introvert. Mojdi is Mojdi's favorite pair of shoes. Honey Singh"
+    }
+  },
+  {
+    "start": 1932.0,
+    "end": 2180.0,
+    "summary": "Unknown and SPEAKER_00 are going to climb Mount Everest. Yoyo Honey Singh is the host of TRS podcast. Unknown used to believe in God. Speaker_00 used to play tabla in Kirtan and read Japji Sahib. Speculation is rife about the alumni culture. SPEaker_00 suffers from bipolar disorder with psychotic symptoms, dry intoxication, drinking alcohol and lack of sleep.",
+    "primary_speaker": "SPEAKER_00",
+    "speaker_counts": {
+      "SPEAKER_00": 76,
+      "Unknown": 32,
+      "SPEAKER_01": 11
+    },
+    "speaker_summaries": {
+      "SPEAKER_00": "Honey Singh started making beats for Goa rappers in 2003. He used to listen to hip hop as a journalist. Bhole Baba is a sadhu, a malang, a devotee of Guru Gobind Singh and Guru Nanak Dev Ji.",
+      "Unknown": "In 2003-04 he was a music journalist of hip hop. His favorite thing about himself is that he is romantic.",
+      "SPEAKER_01": "The least favorite abuse is close to every Indian's heart. It will be a podcast. Honey Singh cheated and loves."
+    }
+  },
+  {
+    "start": 2180.0,
+    "end": 2522.0,
+    "summary": "As a music journalist, SPEAKER_00 started making beats for Goa rappers in 2003. He wants to make beats as a music producer. SPEaker_00 is a devotee of Bhole Baba. Unknown wants to talk to him about his documentary. Unknown will come to Delhi to receive gifts on behalf of team TRS and team NGO.",
+    "primary_speaker": "SPEAKER_00",
+    "speaker_counts": {
+      "SPEAKER_01": 32,
+      "Unknown": 35,
+      "SPEAKER_00": 99
+    },
+    "speaker_summaries": {
+      "SPEAKER_01": "Bhole Baba means your own personal god. He gives material gifts to those who pray to him. Love is also a material gift, but spiritual things are beyond that.",
+      "Unknown": "Honey 3.0 will release a song about alcohol called Naagan soon.",
+      "SPEAKER_00": "Bhole Baba meditates for Bhole baba's power and peace. Shivratri made a song on him in 2013. He wrote a poem and made 52 songs. In September and October he made 52 more spiritual songs. Amar Singh Chamkeela Ji has started listening to other artists and"
+    }
+  },
+  {
+    "start": 2522.0,
+    "end": 2808.0,
+    "summary": "Unknown and SPEAKER_00 have different future plans for their lives. Bollywood came to SPEaker_00 to work with him next year. Unknown made 52 songs in September and October and his next song is called Punjab Ek Amar Singh Chamkeela Ji.",
+    "primary_speaker": "SPEAKER_01",
+    "speaker_counts": {
+      "Unknown": 35,
+      "SPEAKER_01": 61,
+      "SPEAKER_00": 37
+    },
+    "speaker_summaries": {
+      "Unknown": "Hirdesh's sister got married. He used to visit his sister on Saturday and Sunday. He will go back to TRS with them.",
+      "SPEAKER_01": "Yoyo Honey Singh is going to Delhi with his brother. Bholenath has a documentary. He will let him go because he hurt his hand.",
+      "SPEAKER_00": "Martin's sister got married when he was in Punjab in 2007. Martin got 30% of a documentary and will do a podcast after that."
+    }
+  }
+]
