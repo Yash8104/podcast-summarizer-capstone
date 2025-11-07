@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import os
 import re
 import shutil
 import time
@@ -10,6 +11,25 @@ from pathlib import Path
 from threading import Lock
 from typing import Any, Dict, List, Optional
 from urllib.parse import quote
+
+
+def _load_env_file() -> None:
+    env_path = Path(__file__).resolve().parent.parent / ".env"
+    if not env_path.exists():
+        return
+    for line in env_path.read_text(encoding="utf-8").splitlines():
+        line = line.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        key, value = line.split("=", 1)
+        key = key.strip()
+        if not key or key in os.environ:
+            continue
+        cleaned = value.strip().strip('"').strip("'")
+        os.environ[key] = cleaned
+
+
+_load_env_file()
 
 from fastapi import (
     BackgroundTasks,
@@ -73,8 +93,8 @@ FILENAME_CLEANER = re.compile(r"[^A-Za-z0-9_.-]")
 LINK_INDEX_PATH = DOWNLOAD_DIR / "link_index.json"
 SHOW_CACHE_PATH = DOWNLOAD_DIR / "show_cache.json"
 REQUEST_TIMEOUT = 10
-PODCASTINDEX_API_KEY = ""
-PODCASTINDEX_API_SECRET = ""
+PODCASTINDEX_API_KEY = os.environ.get("PODCASTINDEX_API_KEY", "")
+PODCASTINDEX_API_SECRET = os.environ.get("PODCASTINDEX_API_SECRET", "")
 
 app = FastAPI(title="Podcast Pipeline", version="1.0.0")
 
@@ -642,6 +662,9 @@ def _get_meta_title(url: str) -> Optional[str]:
 
 
 def _podcastindex_search(show_title: str) -> Optional[str]:
+    if not PODCASTINDEX_API_KEY or not PODCASTINDEX_API_SECRET:
+        print("PodcastIndex credentials missing; cannot resolve RSS feed.")
+        return None
     cache_key = show_title.strip().lower()
     cached = show_cache.get()
     if cache_key in cached:
